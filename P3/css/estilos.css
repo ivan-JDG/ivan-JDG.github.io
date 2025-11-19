@@ -1,0 +1,36 @@
+body {
+    background-image:url(../images/fondo.jpg);
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+h1 { text-align: center;
+    background-color: aqua;
+    border-style: solid;
+    border-color: rgb(131, 116, 97);
+    font-family: "roboto condensed";
+
+}
+
+img {
+border: 4px black solid;
+border-radius: 20px;
+width: 300px;
+
+}
+
+ul {
+ 
+ 
+}
+
+li {
+ list-style: none;
+ display: inline;
+ border: 4px solid;
+ font-family: "roboto condensed";
+}
+
