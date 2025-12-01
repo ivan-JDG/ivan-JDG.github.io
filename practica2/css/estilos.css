@@ -85,12 +85,14 @@ border-bottom: 2px red solid;
 }
 
 #footer{
-
+border-top: 5px solid rgb(75, 25, 211);
+background-color: violet;
+text-align: center;
+color: white;
 }
 
 #footer a{
-border-top: 5px solid black;
-
+color: white;
 }
 
 #footer a:hover{
