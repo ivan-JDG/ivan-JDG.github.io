@@ -1,0 +1,265 @@
+*{
+  margin: 0%;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background: url('../images/fondo.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+   height: 100%;
+  width: 100%;
+  
+}
+#menu ul li {
+  display: inline;
+
+ 
+}
+
+#menu{
+  background-color: green;
+
+  width: 100%;
+  height: 6%;
+  vertical-align: middle;
+   top: 0px;
+   position: fixed;
+  text-align: center;  
+  border: 1px solid #FF9900;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2em;
+}
+
+#header{
+  margin-bottom: 2%;
+  
+}
+
+
+
+.borde{
+   text-decoration: none;
+   color: black;
+   font-size: 30px;
+}
+
+
+
+
+#textCentral{
+border:1px solid black;
+width: 60%;
+height: 35%;
+float: left;
+overflow-x:hidden;
+overflow-y: hidden;
+margin-bottom: 5%;
+}
+#texto1{
+  float: left;
+  width: 45%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#texto1 p {
+  float: left;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#imgtexto{
+  float:right;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+}
+#imgtexto img{
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 5px;
+}
+
+
+
+
+.redesderecha{
+  position: fixed;
+  top: 50%;
+  right: 15px;              /* pegados al borde */
+  transform: translateY(-50%);
+  z-index: 9999 
+}
+
+
+#redesderecha{
+    float:none;
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+
+}
+
+.redesderecha ul li{
+       display: inline;
+        height: 100%;
+        width: 100%;
+
+}
+
+
+.redesderecha img{
+
+    width: 20%  ;
+    height: auto;
+    margin: 0%;
+
+}
+.redesderecha ul{
+    height: 100%;
+    width: 100%;
+    margin:0%;
+         margin:0%;
+     padding: 0%;
+     list-style: none;
+}
+
+
+
+
+
+
+#textoarriba{
+  float:left;
+  width: 60%;
+  height: 40%;
+  border:1px black solid;
+
+  margin-bottom: 5%;
+}
+#footer{
+  width: 100%;  
+  clear: both;
+  background-color: red;
+  margin-top:2%;
+
+}
+#textOverflow{
+  width: 45%;
+  height: 90%;
+  float: left;
+  overflow-x:hidden;
+  overflow-y: scroll;
+}
+#img2{
+  float: right;
+  width: 45%;
+  height: 90%;
+  overflow: hidden;
+}
+#img2 img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 5px;
+}
+
+
+
+@media all and (max-width: 500px) {
+  #imageLeft {
+    /*
+    Punto 7.1: Barra de menu siempre estara 
+    */
+    /* necesitas 1 instruccion*/
+    /*1: */ float: none;
+    text-align: center;
+    padding-bottom: 5px;
+    
+    
+  }
+
+
+  #imageLeft img{ width: 100%;
+
+  }
+  #imageRight {
+    /*
+    Punto 7.1: Barra de menu siempre estara 
+    */
+    /* necesitas 1 instruccion*/
+    /*1: */ float: none;
+    text-align: center;
+    clear: both;
+  padding-bottom: 5px;
+  
+  
+  
+  }
+
+  
+
+
+  #imageToHide img{
+    width: 100%;
+  }
+  
+.textoarriba{
+
+  
+  
+}
+
+.textoabajo{
+ ;
+}
+
+  #textCentral {
+    margin: 0px 0px ;
+  }
+  
+  #imageToHide {
+    /*
+    Punto 7.2: Barra de menu siempre estara 
+    */
+    /* necesitas 1 instruccion*/
+    /*1: */ float: none;
+
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  #textOverflow {
+    margin-right: 0px;
+  }
+  
+  #header {
+    margin-top: 50px;
+  }
+ 
+}
+
+.background{
+  height: 100%;
+}
+
+
+
+@media all and (max-width: 300px) {
+  #header {
+    /*
+    Cambio el margen para que no lo tape el menu
+    */
+    margin-top: 100px;
+  }
+}
