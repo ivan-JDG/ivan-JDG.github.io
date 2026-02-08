@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.html, body{
+    height: 700px;
+}
+
+body {
+     
+     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.padre {
+    
+   width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;          
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border: #050505 solid 1px;
+}
+
+
+
+.titulo {
+    
+     background-color: #ddd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*  padding: 20px; */
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background-color: #4aa3df;
+    border-radius: 50%;
+}
+
+.direccion {
+    margin-left: 20px;
+    
+    text-align: center;
+
+}
+
+.direccion h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.puesto {
+    font-size: 14px;
+    color: #050505;
+      
+
+}
+
+
+.bio {
+    padding: 15px 25px;
+    text-align: left;
+    font-size: 14px;
+    
+}
+
+
+.estadisticas {
+     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+.estadisticas b {
+    font-size: 18px;
+}
+
+
+.accion {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.accion a {
+    text-decoration: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.seguir {
+      flex: 2;                 
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.msn {
+    flex: 1;                 
+    background-color: #eee;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    text-decoration: none;
+}
